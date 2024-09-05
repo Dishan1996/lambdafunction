@@ -1,0 +1,22 @@
+{
+  "name": "eventretriever",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to retrieve events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dishan1996/lambdafunction.git"
+  },
+  "author": "Dishan1996",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dishan1996/lambdafunction/issues"
+  },
+  "homepage": "https://github.com/Dishan1996/lambdafunction#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1409.0"
+  }
+}
