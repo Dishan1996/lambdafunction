@@ -33,7 +33,7 @@ pipeline {
 
         stage('Deploy to Lambda') {
             steps {
-                withAWS(credentials: 'your-aws-credentials-id', region: env.AWS_DEFAULT_REGION) {
+                withAWS(credentials: '5c39b478-2b74-4f34-82f6-f5c47a75595c', region: env.AWS_DEFAULT_REGION) {
                     sh "aws lambda update-function-code --function-name ${env.LAMBDA_FUNCTION_NAME} --zip-file fileb://function.zip"
                 }
             }
